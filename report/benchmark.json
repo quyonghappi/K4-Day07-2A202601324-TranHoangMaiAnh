@@ -1,0 +1,1498 @@
+{
+  "embedder": "local",
+  "mock_limitations": false,
+  "strategies": {
+    "fixed": {
+      "chunk_count": 284,
+      "queries": [
+        {
+          "id": "Q1",
+          "question": "Thời hạn gửi yêu cầu trả hàng và hoàn tiền trên Shopee là bao lâu?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "15 (mười lăm) ngày",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-returns-policy::chunk_10::146",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 10,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.64347,
+                  "semantic_score": 0.311752,
+                  "keyword_score": 0.60625,
+                  "relevant_evidence": false,
+                  "content": " của Shopee. \n\n4. QUY ĐỊNH BỔ SUNG ĐỐI VỚI CÁC TRƯỜNG HỢP TRẢ HÀNG COM \n\nViệc Trả hàng COM được thực hiện với các quy định bổ sung như sau: \n\n4.1. Đối tượng áp dụng \n\na. Trả hàng COM sẽ chỉ được áp dụng với các đối tượng như sau (“Người Mua hợp lệ”): \n\ni. Người Mua là thành viên của Chương trình khách hàng thân thiết Shopee đạt hạng Vàng và Kim Cương. Vui lòng tham khảo hạng thành viên tại ĐÂY ; \n\nii. Người Mua đang sử dụng Gói ShopeeVIP. Vui lòng tham khảo ShopeeVIP tại ĐÂY . \n\nb. Trong trường "
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-returns-policy::chunk_16::152",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 16,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.634847,
+                  "semantic_score": 0.230426,
+                  "keyword_score": 0.69375,
+                  "relevant_evidence": false,
+                  "content": "\niv. Quyền Trả hàng COM sẽ bị chấm dứt ngay lập tức ngay khi gói ShopeeVIP của Người Mua hết hiệu lực hoặc bị Shopee loại khỏi gói ShopeeVIP theo các chính sách, quy định của Shopee. Việc chấm dứt ngay lập tức này không ảnh hưởng đến các yêu cầu Trả hàng COM đã được tạo trước thời điểm chấm dứt. \n\nv. Trong trường hợp một yêu cầu Trả hàng COM được tạo trong một tháng nhưng, vì bất cứ lý do gì, được Shopee giải quyết trong tháng tiếp theo, thì yêu cầu này sẽ được tính vào hạn mức của tháng mà yêu "
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-returns-policy::chunk_28::164",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 28,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.629726,
+                  "semantic_score": 0.158437,
+                  "keyword_score": 0.78125,
+                  "relevant_evidence": false,
+                  "content": "a Shopee) hoặc đơn giao không thành công do lỗi của đơn vị vận chuyển, \n\nđơn yêu cầu trả hàng/hoàn tiền được Shopee chấp nhận hoàn tiền ngay (không trả hàng) (theo quyết định riêng của Shopee), \n\nđơn giao không thành công thuộc kênh Người bán tự vận chuyển, và \n\nđơn yêu cầu trả hàng/hoàn tiền được Người mua lựa chọn hình thức \"Tự sắp xếp\" để trả hàng. \n\nVui lòng tham khảo chi tiết các thông tin về chi phí vận chuyển chiều hoàn trả sản phẩm của Người Bán tại ĐÂY . \n\n8. TRÁCH NHIỆM VỀ CHI PHÍ HOÀN"
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "question": "Người bán bị xử lý thế nào khi vi phạm quy định đăng bán sản phẩm bị cấm?",
+          "gold_doc_id": "k4-seller-listing",
+          "evidence": "xóa/khóa/tạm ẩn hiển thị sản phẩm",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-seller-listing::chunk_45::225",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 45,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.668625,
+                  "semantic_score": 0.116333,
+                  "keyword_score": 1.0,
+                  "relevant_evidence": true,
+                  "content": "Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có thẩm quy"
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-payment-policy::chunk_28::28",
+                  "doc_id": "k4-payment-policy",
+                  "chunk_index": 28,
+                  "source": "data\\k4_ecommerce\\payment-policy.md",
+                  "score": 0.63582,
+                  "semantic_score": 0.358264,
+                  "keyword_score": 0.505882,
+                  "relevant_evidence": false,
+                  "content": "ệu cá nhân nào của bạn, cho dù lấy từ bạn hay thông qua bất kỳ nguồn nào khác dựa trên Chính sách bảo mật và các quy định hiện hành. Các thông tin nói trên bao gồm nhưng không giới hạn ở: \n\na) thông tin cá nhân và thông tin bổ sung được thu thập trong quá trình bạn đăng ký sử dụng Khoản tín dụng \n\nb) Quá trình sử dụng Khoản tín dụng và hoàn trả dư nợ của khoản vay để báo cáo theo quy định cho Trung tâm thông tin tín dụng Quốc gia Việt Nam (CIC) và công ty Cổ phần Thông tin tín dụng Việt Na"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_44::224",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 44,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.635102,
+                  "semantic_score": 0.191646,
+                  "keyword_score": 0.752941,
+                  "relevant_evidence": false,
+                  "content": "hính, quy định về hạn sử dụng sẽ được áp dụng tương tự sản phẩm chính. \n\nb. Khi quà tặng kèm không được đăng công khai trên thông tin sản phẩm chính, Shopee sẽ không can thiệp xử lý khiếu nại về hạn sử dụng của quà tặng kèm. Tuy nhiên hành vi cố ý tặng kèm sản phẩm hết hạn sử dụng có thể mang đến trải nghiệm không tốt cho Người Mua và làm giảm uy tín của Người Bán thông qua việc đánh giá kém từ Người Mua trên đơn hàng. \n\nE. XỬ LÝ VI PHẠM \n\nNgười Bán vi phạm một trong các quy định trên trong quá "
+                }
+              ],
+              "answer": "[1] doc_id=k4-seller-listing source=data\\k4_ecommerce\\seller-listing.md\nBán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có thẩm quy\n\n[2] doc_id=k4-payment-policy source=data\\k4_ecommerce\\payment-policy.md\nệu cá nhân nào của bạn, cho dù lấy từ bạn hay thông qua bất kỳ nguồn nào khác dựa trên Chính sách bảo mật và các quy định hiện hành.",
+              "evaluation": {
+                "score": 2,
+                "evidence_in_top3": true,
+                "evidence_ranks": [1],
+                "top1_evidence": true,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Pass: evidence ở top-1, chunk đủ coherent và câu trả lời grounded.",
+                "suggested_change": "Không cần sửa cho query này; tiếp tục kiểm tra trên query/corpus khác."
+              }
+            },
+            {
+              "variant": "filtered",
+              "metadata_filter": {
+                "customer_role": "seller"
+              },
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-seller-listing::chunk_45::225",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 45,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.668625,
+                  "semantic_score": 0.116333,
+                  "keyword_score": 1.0,
+                  "relevant_evidence": true,
+                  "content": "Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có thẩm quy"
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-seller-listing::chunk_44::224",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 44,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.635102,
+                  "semantic_score": 0.191646,
+                  "keyword_score": 0.752941,
+                  "relevant_evidence": false,
+                  "content": "hính, quy định về hạn sử dụng sẽ được áp dụng tương tự sản phẩm chính. \n\nb. Khi quà tặng kèm không được đăng công khai trên thông tin sản phẩm chính, Shopee sẽ không can thiệp xử lý khiếu nại về hạn sử dụng của quà tặng kèm. Tuy nhiên hành vi cố ý tặng kèm sản phẩm hết hạn sử dụng có thể mang đến trải nghiệm không tốt cho Người Mua và làm giảm uy tín của Người Bán thông qua việc đánh giá kém từ Người Mua trên đơn hàng. \n\nE. XỬ LÝ VI PHẠM \n\nNgười Bán vi phạm một trong các quy định trên trong quá "
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_12::192",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 12,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.602463,
+                  "semantic_score": 0.15951,
+                  "keyword_score": 0.670588,
+                  "relevant_evidence": false,
+                  "content": " ảnh khỏa thân, khiêu gợi, phản cảm, không phù hợp với thuần phong mỹ tục. \n\n2. Tên sản phẩm \n\na. Tên sản phẩm phải mô tả đúng hàng hóa, dịch vụ được đăng bán và phải là tiếng Việt có dấu, đủ ký tự, rõ nghĩa, không dùng các ký tự đặc biệt, không viết tắt. \n\nb. Tên gọi của sản phẩm phải trùng khớp với thông tin trên hình ảnh sản phẩm. \n\nc. Tên sản phẩm không sử dụng lời lẽ có nội dung dung tục, bạo lực; các nội dung có tính chất kỳ thị dân tộc, vùng miền, xúc phạm tôn giáo, gây định kiến về giới"
+                }
+              ],
+              "answer": "[1] doc_id=k4-seller-listing source=data\\k4_ecommerce\\seller-listing.md\nBán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có thẩm quy\n\n[2] doc_id=k4-seller-listing source=data\\k4_ecommerce\\seller-listing.md\nhính, quy định về hạn sử dụng sẽ được áp dụng tương tự sản phẩm chính.",
+              "evaluation": {
+                "score": 2,
+                "evidence_in_top3": true,
+                "evidence_ranks": [1],
+                "top1_evidence": true,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Pass: evidence ở top-1, chunk đủ coherent và câu trả lời grounded.",
+                "suggested_change": "Không cần sửa cho query này; tiếp tục kiểm tra trên query/corpus khác."
+              }
+            }
+          ],
+          "filter_ab_identical": false
+        },
+        {
+          "id": "Q3",
+          "question": "Quy định về thời gian phản hồi của Người Bán khi nhận yêu cầu trả hàng là bao lâu?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "02 ngày lịch",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-returns-policy::chunk_14::150",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 14,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.635304,
+                  "semantic_score": 0.26081,
+                  "keyword_score": 0.65,
+                  "relevant_evidence": false,
+                  "content": "quyền từ chối bất kỳ yêu cầu nào như vậy. \n\nb. Đối với Người Mua sử dụng Gói ShopeeVIP, hạn mức Trả hàng COM là 15 (mười lăm) lần trong mỗi tháng dương lịch được tính bắt đầu từ thời điểm Gói ShopeeVIP được Người Mua đăng ký thành công và Người Mua vẫn được hưởng quyền lợi này cho đến khi chấm dứt Gói ShopeeVIP (vì bất kỳ lý do gì), trừ trường hợp Người Mua thực hiện bất cứ hành vi nào vi phạm các Chính sách của Sàn TMĐT Shopee, bao gồm nhưng không giới hạn ở Điều khoản dịch vụ. Trong trường hợp"
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-privacy-policy::chunk_53::93",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 53,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.632322,
+                  "semantic_score": 0.350082,
+                  "keyword_score": 0.504167,
+                  "relevant_evidence": false,
+                  "content": "xóa, tiêu hủy dữ liệu trong trường hợp yêu cầu của bạn không phù hợp với quy định của Luật riêng tư hiện hành, hoặc mặc dù phù hợp nhưng thuộc trường hợp Chúng tôi không được xóa, tiêu hủy theo quy định của Luật riêng tư hiện hành. \n\n8. SHOPEE CÓ TIẾT LỘ THÔNG TIN THU THẬP TỪ NGƯỜI TRUY CẬP HAY KHÔNG? \n\n8.1 Trong quá trình thực hiện hoạt động kinh doanh, chúng tôi sẽ/có thể cần phải sử dụng, xử lý, tiết lộ và/hoặc chuyển giao dữ liệu cá nhân của bạn cho các nhà cung cấp dịch vụ bên thứ ba, đại l"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_45::225",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 45,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.63065,
+                  "semantic_score": 0.287288,
+                  "keyword_score": 0.591667,
+                  "relevant_evidence": false,
+                  "content": "Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có thẩm quy"
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q4",
+          "question": "Điều kiện để Người Mua nhận hoàn tiền khi thanh toán bằng COD là gì?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "liên kết với các phương thức nhận hoàn tiền hợp lệ",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-returns-policy::chunk_8::144",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 8,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.703928,
+                  "semantic_score": 0.246372,
+                  "keyword_score": 0.946154,
+                  "relevant_evidence": true,
+                  "content": " Đối với các đơn hàng được thanh toán bằng hình thức Thanh toán khi nhận hàng (COD) và/hoặc Chuyển khoản ngân hàng, tài khoản Shopee của Người Mua phải liên kết với các phương thức nhận hoàn tiền hợp lệ theo quy định áp dụng của Shopee (ví dụ như Tài Khoản Ngân Hàng và/hoặc các ví điện tử hợp lệ như Ví ShopeePay) trước khi thực hiện yêu cầu Trả hàng / Hoàn tiền. Để làm rõ, Người Mua sẽ không thể thực hiện yêu cầu Trả hàng/ Hoàn tiền trong trường hợp tài khoản Shopee của Người Mua không liên kết "
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-payment-policy::chunk_5::5",
+                  "doc_id": "k4-payment-policy",
+                  "chunk_index": 5,
+                  "source": "data\\k4_ecommerce\\payment-policy.md",
+                  "score": 0.648927,
+                  "semantic_score": 0.350986,
+                  "keyword_score": 0.569231,
+                  "relevant_evidence": false,
+                  "content": "oản và điều kiện quy định trong Thỏa thuận tín dụng liên quan. \n\n2.3. “ Chúng tôi ” có nghĩa là Shopee và / hoặc Bên cho vay. \n\n2.4. “ Trường hợp bất khả kháng ” có nghĩa là sự kiện xảy ra một cách khách quan không thể lường trước được và không thể khắc phục được mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép. \n\n2.5. “ Nội dung ” có nghĩa là toàn bộ nội dung của Nền tảng Shopee và các Dịch vụ, toàn bộ hoặc từng phần, bao gồm nhưng không giới hạn ở bất kỳ thông tin, thiết kế, hình"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-shipping-policy::chunk_45::274",
+                  "doc_id": "k4-shipping-policy",
+                  "chunk_index": 45,
+                  "source": "data\\k4_ecommerce\\shipping-policy.md",
+                  "score": 0.641333,
+                  "semantic_score": 0.294838,
+                  "keyword_score": 0.623077,
+                  "relevant_evidence": false,
+                  "content": "ụ vận chuyển được hỗ trợ trên Sàn TMĐT Shopee không cho phép Người Mua kiểm tra hàng trước khi thanh toán (với mọi hình thức thanh toán khả dụng) và nhận hàng, trừ những đơn hàng được đồng kiểm. Xem chi tiết Điều khoản chương trình đồng kiểm cho Người Mua TẠI ĐÂY và cho Người Bán TẠI ĐÂY . \n\n2. Người Bán hoàn toàn chịu trách nhiệm về tính chính xác của địa chỉ đăng ký gửi hàng (địa chỉ bàn giao hàng cho đơn vị vận chuyển). Trong trường hợp Người Bán thay đổi địa chỉ gửi hàng sau "
+                }
+              ],
+              "answer": "[1] doc_id=k4-returns-policy source=data\\k4_ecommerce\\returns-policy.md\n Đối với các đơn hàng được thanh toán bằng hình thức Thanh toán khi nhận hàng (COD) và/hoặc Chuyển khoản ngân hàng, tài khoản Shopee của Người Mua phải liên kết với các phương thức nhận hoàn tiền hợp lệ theo quy định áp dụng của Shopee (ví dụ như Tài Khoản Ngân Hàng và/hoặc các ví điện tử hợp lệ như Ví ShopeePay) trước khi thực hiện yêu cầu Trả hàng / Hoàn tiền. Để làm rõ, Người Mua sẽ không thể thực hiện yêu cầu Trả hàng/ Hoàn tiền trong trường hợp tài khoản Shopee của Người Mua không liên kết \n\n[2] doc_id=k4-payment-policy source=data\\k4_ecommerce\\payment-policy.md\noản và điều kiện quy định trong Thỏa thuận tín dụng liên quan.",
+              "evaluation": {
+                "score": 2,
+                "evidence_in_top3": true,
+                "evidence_ranks": [1],
+                "top1_evidence": true,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Pass: evidence ở top-1, chunk đủ coherent và câu trả lời grounded.",
+                "suggested_change": "Không cần sửa cho query này; tiếp tục kiểm tra trên query/corpus khác."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q5",
+          "question": "Người dùng có quyền yêu cầu xóa hoặc rút lại sự đồng ý sử dụng dữ liệu cá nhân không?",
+          "gold_doc_id": "k4-privacy-policy",
+          "evidence": "rút lại sự đồng ý",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-privacy-policy::chunk_40::80",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 40,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.670742,
+                  "semantic_score": 0.324877,
+                  "keyword_score": 0.695652,
+                  "relevant_evidence": false,
+                  "content": "người bán hoặc thẻ tín dụng đồng thương hiệu với sự hợp tác của các bên thứ ba; \n\nđể đáp ứng các thủ tục pháp lý hoặc để tuân thủ hoặc theo quy định của pháp luật hiện hành, và các yêu cầu của cơ quan nhà nước có thẩm quyền hoặc yêu cầu của bất cứ cơ quan tài phán nào hoặc khi chúng tôi thực sự tin tưởng rằng việc tiết lộ thông tin là cần thiết, bao gồm nhưng không giới hạn, đáp ứng các yêu cầu đáp ứng các yêu cầu công bố thông tin theo yêu cầu của bất kỳ luật ràng buộc nào đối với Shopee hoặc c"
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-privacy-policy::chunk_54::94",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 54,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.663809,
+                  "semantic_score": 0.346969,
+                  "keyword_score": 0.634783,
+                  "relevant_evidence": false,
+                  "content": "bạn cho các nhà cung cấp dịch vụ bên thứ ba, đại lý và/hoặc các công ty liên kết hoặc công ty liên quan của chúng tôi, và/hoặc các bên thứ ba khác có thể ở Việt Nam hoặc bên ngoài Việt Nam, vì một hay nhiều Mục Đích nói trên, và việc tiết lộ này sẽ được thực hiện theo đúng trình tự và quy định của pháp luật hiện hành. Chúng tôi cũng có thể sử dụng, xử lý, tiết lộ và/hoặc chuyển giao dữ liệu cá nhân của bạn cho các nhà cung cấp dịch vụ, đại lý và bên thứ ba khác khi bạn yêu cầu hoặc chỉ thị chúng"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-privacy-policy::chunk_85::125",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 85,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.662744,
+                  "semantic_score": 0.202101,
+                  "keyword_score": 0.847826,
+                  "relevant_evidence": false,
+                  "content": " đang lưu giữ hoặc kiểm soát bằng cách gửi email cho Chuyên viên Bảo Vệ Dữ Liệu Cá Nhân của chúng tôi tại địa chỉ email dpo.vn@shopee.com hoặc qua ĐÂY , và chúng tôi sẽ xử lý các yêu cầu này theo Chính Sách Bảo Mật cũng như quy định pháp luật có liên quan. Tuy nhiên, việc bạn rút lại sự cho phép, yêu cầu hạn chế, phản đối xử lý dữ liệu cá nhân của bạn có thể đồng nghĩa với việc chúng tôi sẽ không thể tiếp tục cung cấp các Dịch vụ đến bạn và chúng tôi có thể cần phải chấm dứt mối quan hệ hiện tại"
+                }
+              ],
+              "answer": "Chúng tôi cũng có thể sử dụng, xử lý, tiết lộ và/hoặc chuyển giao dữ liệu cá nhân của bạn cho các nhà cung cấp dịch vụ, đại lý và bên thứ ba khác khi bạn yêu cầu hoặc chỉ thị chúng\n\n[3] doc_id=k4-privacy-policy source=data\\k4_ecommerce\\privacy-policy.md\n đang lưu giữ hoặc kiểm soát bằng cách gửi email cho Chuyên viên Bảo Vệ Dữ Liệu Cá Nhân của chúng tôi tại địa chỉ email dpo.vn@shopee.com hoặc qua ĐÂY , và chúng tôi sẽ xử lý các yêu cầu này theo Chính Sách Bảo Mật cũng như quy định pháp luật có liên quan.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        }
+      ],
+      "total_score": 4
+    },
+    "sentence": {
+      "chunk_count": 306,
+      "queries": [
+        {
+          "id": "Q1",
+          "question": "Thời hạn gửi yêu cầu trả hàng và hoàn tiền trên Shopee là bao lâu?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "15 (mười lăm) ngày",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-returns-policy::chunk_35::149",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 35,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.678924,
+                  "semantic_score": 0.406298,
+                  "keyword_score": 0.60625,
+                  "relevant_evidence": false,
+                  "content": "HOÀN TIỀN ĐỐI VỚI SẢN PHẨM HOÀN TRẢ \n\n9.1. Shopee sẽ chỉ hoàn tiền cho Người Mua thuộc một trong các trường hợp sau: \n\nNgười Bán xác nhận đã nhận được Sản Phẩm Hoàn Trả; hoặc \n\nNgười Mua chấp nhận đề xuất hoàn tiền không cần trả Sản Phẩm của Người Bán; hoặc \n\nNgười Mua được Shopee quyết định hoàn tiền ngay mà không cần Người Mua trả Sản Phẩm; và/hoặc \n\nĐơn hàng của Người Mua đủ điều kiện được trả hàng/hoàn tiền và Shopee quyết định cho Người Mua được hoàn tiền khi Người Mua đã gửi trả Sản Phẩm cho đơn vị vận chuyển và đơn vị vận chuyển xác nhận đã nhận được Sản Phẩm Hoàn Trả. 9.2."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-returns-policy::chunk_30::144",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 30,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.6492,
+                  "semantic_score": 0.210367,
+                  "keyword_score": 0.78125,
+                  "relevant_evidence": false,
+                  "content": "TRÁCH NHIỆM VỀ CHI PHÍ VẬN CHUYỂN HOÀN TRẢ SẢN PHẨM CỦA NGƯỜI BÁN \n\n7.1. Người Bán sẽ chịu chi phí vận chuyển cho việc trả hàng chiều hoàn trả sản phẩm đối với: \n\nđơn yêu cầu trả hàng/hoàn tiền trong trường hợp Shopee chấp thuận (theo quyết định riêng của Shopee) mà không do lỗi của Người Mua hoặc đơn vị vận chuyển, \n\nđơn giao không thành công, và \n\ncác trường hợp ngoại lệ khác theo quyết định của Shopee vào từng thời điểm cụ thể. Shopee sẽ thông báo đến Người Bán theo Chính Sách Shopee."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-returns-policy::chunk_6::120",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 6,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.647715,
+                  "semantic_score": 0.235574,
+                  "keyword_score": 0.7375,
+                  "relevant_evidence": false,
+                  "content": "ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN \n\n3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: \n\nNgười Mua đã thanh toán bằng các phương thức thanh toán hợp lệ và trực tiếp trên Trang Shopee nhưng (i) không nhận được Sản Phẩm, hoặc (ii) không nhận được toàn bộ các Sản Phẩm đã đặt, hoặc (iii) nhận được Sản Phẩm là hàng giả, hàng nhái; \n\nSản Phẩm bị lỗi hoặc bị hư hại trong quá trình vận chuyển; \n\nNgười Bán giao sai Sản Phẩm cho Người Mua (ví dụ: sai kích cỡ, sai màu sắc, v.v); \n\nSản Phẩm mà Người Mua nhận được khác biệt một cách rõ rệt so với thông tin mà Người Bán cung cấp trong mục mô tả sản phẩm; \n\nSản Phẩm hết hạn sử dụng; \n\nNgười Bán đã tự thỏa thuận và đồng ý cho Người Mua trả hàng (tuy nhiên Shopee sẽ cần Người Bán xác nhận lại những thỏa thuận này). Sản Phẩm ở trạng thái nguyên vẹn và nguyên bao bì nhưng Người Mua không còn nhu cầu (\"Trả hàng COM\"), theo yêu cầu tại Điều 4 dưới đây."
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "question": "Người bán bị xử lý thế nào khi vi phạm quy định đăng bán sản phẩm bị cấm?",
+          "gold_doc_id": "k4-seller-listing",
+          "evidence": "xóa/khóa/tạm ẩn hiển thị sản phẩm",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-seller-listing::chunk_75::237",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 75,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.70841,
+                  "semantic_score": 0.222426,
+                  "keyword_score": 1.0,
+                  "relevant_evidence": true,
+                  "content": "Tuy nhiên hành vi cố ý tặng kèm sản phẩm hết hạn sử dụng có thể mang đến trải nghiệm không tốt cho Người Mua và làm giảm uy tín của Người Bán thông qua việc đánh giá kém từ Người Mua trên đơn hàng. E. XỬ LÝ VI PHẠM \n\nNgười Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có thẩm quyền, Người Mua/Người sử dụng hàng hóa, dịch vụ; (vii) khởi kiện tại Tòa án để đảm bảo bảo vệ các quyền và lợi ích hợp pháp của Shopee và các bên có liên quan, v.v...hoặc các biện pháp khác theo chính sách có hiệu lực tại thời điểm diễn ra hành vi vi phạm trên Sàn Shopee."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-shipping-policy::chunk_58::299",
+                  "doc_id": "k4-shipping-policy",
+                  "chunk_index": 58,
+                  "source": "data\\k4_ecommerce\\shipping-policy.md",
+                  "score": 0.62893,
+                  "semantic_score": 0.312442,
+                  "keyword_score": 0.547059,
+                  "relevant_evidence": false,
+                  "content": "4. Shopee khuyến khích Người Mua/ Người Bán chụp hình/ghi hình kiện hàng trước khi mở và trong quá trình mở hàng giao đến hoặc hoàn trả để lưu lại bằng chứng về tình trạng bao bì và các sản phẩm bên trong, phục vụ cho quá trình xử lý khiếu nại (nếu có). 5."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_65::227",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 65,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.617137,
+                  "semantic_score": 0.17119,
+                  "keyword_score": 0.711765,
+                  "relevant_evidence": false,
+                  "content": "Chất lượng sản phẩm \n\nNgười Bán cần đảm bảo chất lượng sản phẩm phải đúng như mô tả. Sản phẩm đăng bán trên Sàn Shopee cần có chất lượng tốt theo các tiêu chuẩn hiện hành, phản ánh đúng kỳ vọng Người mua. Trong trường hợp Người bán bị nhiều Người mua tố cáo, đánh giá tiêu cực về chất lượng sản phẩm, Shopee có quyền áp dụng các biện pháp phù hợp lên sản phẩm/tài khoản của Người Bán."
+                }
+              ],
+              "answer": "XỬ LÝ VI PHẠM \n\nNgười Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có thẩm quyền, Người Mua/Người sử dụng hàng hóa, dịch vụ; (vii) khởi kiện tại Tòa án để đảm bảo bảo vệ các quyền và lợi ích hợp pháp của Shopee và các bên có liên quan, v.v...hoặc các biện pháp khác theo chính sách có hiệu lực tại thời điểm diễn ra hành vi vi phạm trên Sàn Shopee.",
+              "evaluation": {
+                "score": 2,
+                "evidence_in_top3": true,
+                "evidence_ranks": [1],
+                "top1_evidence": true,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Pass: evidence ở top-1, chunk đủ coherent và câu trả lời grounded.",
+                "suggested_change": "Không cần sửa cho query này; tiếp tục kiểm tra trên query/corpus khác."
+              }
+            },
+            {
+              "variant": "filtered",
+              "metadata_filter": {
+                "customer_role": "seller"
+              },
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-seller-listing::chunk_75::237",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 75,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.70841,
+                  "semantic_score": 0.222426,
+                  "keyword_score": 1.0,
+                  "relevant_evidence": true,
+                  "content": "Tuy nhiên hành vi cố ý tặng kèm sản phẩm hết hạn sử dụng có thể mang đến trải nghiệm không tốt cho Người Mua và làm giảm uy tín của Người Bán thông qua việc đánh giá kém từ Người Mua trên đơn hàng. E. XỬ LÝ VI PHẠM \n\nNgười Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có thẩm quyền, Người Mua/Người sử dụng hàng hóa, dịch vụ; (vii) khởi kiện tại Tòa án để đảm bảo bảo vệ các quyền và lợi ích hợp pháp của Shopee và các bên có liên quan, v.v...hoặc các biện pháp khác theo chính sách có hiệu lực tại thời điểm diễn ra hành vi vi phạm trên Sàn Shopee."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-seller-listing::chunk_65::227",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 65,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.617137,
+                  "semantic_score": 0.17119,
+                  "keyword_score": 0.711765,
+                  "relevant_evidence": false,
+                  "content": "Chất lượng sản phẩm \n\nNgười Bán cần đảm bảo chất lượng sản phẩm phải đúng như mô tả. Sản phẩm đăng bán trên Sàn Shopee cần có chất lượng tốt theo các tiêu chuẩn hiện hành, phản ánh đúng kỳ vọng Người mua. Trong trường hợp Người bán bị nhiều Người mua tố cáo, đánh giá tiêu cực về chất lượng sản phẩm, Shopee có quyền áp dụng các biện pháp phù hợp lên sản phẩm/tài khoản của Người Bán."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_48::210",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 48,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.616798,
+                  "semantic_score": 0.225186,
+                  "keyword_score": 0.629412,
+                  "relevant_evidence": false,
+                  "content": "4. Thông tin mô tả \n\na. Mô tả sản phẩm cần đầy đủ và chi tiết, giúp người mua có thể hiểu rõ những đặc điểm, công dụng, cách dùng, lưu ý khi sử dụng của sản phẩm, v.v… để làm căn cứ khi đặt mua hàng."
+                }
+              ],
+              "answer": "XỬ LÝ VI PHẠM \n\nNgười Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có thẩm quyền, Người Mua/Người sử dụng hàng hóa, dịch vụ; (vii) khởi kiện tại Tòa án để đảm bảo bảo vệ các quyền và lợi ích hợp pháp của Shopee và các bên có liên quan, v.v...hoặc các biện pháp khác theo chính sách có hiệu lực tại thời điểm diễn ra hành vi vi phạm trên Sàn Shopee.",
+              "evaluation": {
+                "score": 2,
+                "evidence_in_top3": true,
+                "evidence_ranks": [1],
+                "top1_evidence": true,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Pass: evidence ở top-1, chunk đủ coherent và câu trả lời grounded.",
+                "suggested_change": "Không cần sửa cho query này; tiếp tục kiểm tra trên query/corpus khác."
+              }
+            }
+          ],
+          "filter_ab_identical": false
+        },
+        {
+          "id": "Q3",
+          "question": "Quy định về thời gian phản hồi của Người Bán khi nhận yêu cầu trả hàng là bao lâu?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "02 ngày lịch",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-returns-policy::chunk_24::138",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 24,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.701794,
+                  "semantic_score": 0.418672,
+                  "keyword_score": 0.679167,
+                  "relevant_evidence": false,
+                  "content": "b. Trong trường hợp nhận được khiếu nại của Người Bán về kết quả giải quyết yêu cầu Trả hàng COM trên hệ thống của Shopee, Shopee có quyền (mà không phải là nghĩa vụ) cung cấp các thông tin về (i) hạng thành viên, (ii) hạn mức Trả hàng COM còn lại của Người Mua cho Người Bán mà không cần phải thông báo cho Người Mua về việc cung cấp thông tin này. Tùy vào từng thời điểm và theo quyết định của riêng Shopee, việc cung cấp thông tin này có thể được thực hiện thông qua các nhãn (tag) gắn liền với tài khoản của Người Mua (nếu có) hoặc thông qua bộ phận có liên quan của Shopee."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-returns-policy::chunk_9::123",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 9,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.618026,
+                  "semantic_score": 0.214737,
+                  "keyword_score": 0.65,
+                  "relevant_evidence": false,
+                  "content": "Để làm rõ, Người Mua sẽ không thể thực hiện yêu cầu Trả hàng/ Hoàn tiền trong trường hợp tài khoản Shopee của Người Mua không liên kết thành công với các phương thức nhận hoàn tiền theo quy định tại Điều 3.3 này. 3.4. Tất cả các yêu cầu trả hàng hoàn tiền phải được thực hiện trên tài khoản Shopee của chính Người Mua đã đặt đơn hàng ."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-returns-policy::chunk_38::152",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 38,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.614244,
+                  "semantic_score": 0.262983,
+                  "keyword_score": 0.5625,
+                  "relevant_evidence": false,
+                  "content": "Tùy từng trường hợp, tiền hoàn trả sẽ được chuyển vào Ví ShopeePay, SPayLater, Thẻ nội địa Napas, Tài Khoản Ngân Hàng, Thẻ thẻ tín dụng/ ghi nợ của Người Mua đã đăng ký với Shopee hoặc Số Dư Tài Khoản Shopee của Người Mua. Để biết thêm chi tiết về thời gian hoàn tiền, vui lòng tham khảo hướng dẫn tại ĐÂY . Để làm rõ, Người Mua phải đảm bảo duy trì các phương thức nhận hoàn tiền hợp lệ theo quy định tại Chính Sách này và các chính sách khác của Shopee vào từng thời điểm cụ thể."
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q4",
+          "question": "Điều kiện để Người Mua nhận hoàn tiền khi thanh toán bằng COD là gì?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "liên kết với các phương thức nhận hoàn tiền hợp lệ",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-returns-policy::chunk_8::122",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 8,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.664122,
+                  "semantic_score": 0.140222,
+                  "keyword_score": 0.946154,
+                  "relevant_evidence": true,
+                  "content": "Một số trường hợp Người Mua có nhu cầu trả hàng/hoàn tiền sau thời hạn trên, Shopee sẽ xem xét và có thể hỗ trợ Người Mua được trả hàng/hoàn tiền trong phạm vi phù hợp với Chính Sách Shopee. 3.3. Đối với các đơn hàng được thanh toán bằng hình thức Thanh toán khi nhận hàng (COD) và/hoặc Chuyển khoản ngân hàng, tài khoản Shopee của Người Mua phải liên kết với các phương thức nhận hoàn tiền hợp lệ theo quy định áp dụng của Shopee (ví dụ như Tài Khoản Ngân Hàng và/hoặc các ví điện tử hợp lệ như Ví ShopeePay) trước khi thực hiện yêu cầu Trả hàng / Hoàn tiền."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-payment-policy::chunk_43::43",
+                  "doc_id": "k4-payment-policy",
+                  "chunk_index": 43,
+                  "source": "data\\k4_ecommerce\\payment-policy.md",
+                  "score": 0.660209,
+                  "semantic_score": 0.345173,
+                  "keyword_score": 0.623077,
+                  "relevant_evidence": false,
+                  "content": "10. Chấm dứt cung cấp Dịch vụ \n\n10.1. Nếu Bên cho vay, và / hoặc Shopee tin rằng bạn đã vi phạm các Điều khoản và Điều kiện Dịch vụ này, bao gồm các quy định trong Tài liệu Dịch vụ hoặc bất kỳ luật và quy định hiện hành nào, bạn hiểu và đồng ý rằng Bên cho vay, và / hoặc Shopee sẽ có toàn quyền thực hiện bất kỳ hành động nào sau đây: \n\na) vào bất kỳ lúc nào, dù có thông báo trước cho bạn hay không, chấm dứt, tạm khóa hoặc ngừng quyền truy cập của bạn vào Dịch vụ và Nền tảng Shopee (hoặc bất kỳ cấu phần nào của Dịch vụ và Nền tảng Shopee); \n\nb) gửi cảnh báo đến cho bạn; \n\nc) thực hiện bất kỳ hành động pháp lý nào đối với bạn để được hoàn trả bất kỳ và tất cả các chi phí trên cơ sở bồi thường (bao gồm, nhưng không giới hạn ở các chi phí pháp lý và hành chính hợp lý) do bất kỳ hành vi vi phạm nào của bạn; và / hoặc \n\nd) khởi kiện bạn."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-returns-policy::chunk_6::120",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 6,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.656424,
+                  "semantic_score": 0.263285,
+                  "keyword_score": 0.730769,
+                  "relevant_evidence": false,
+                  "content": "ĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN \n\n3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: \n\nNgười Mua đã thanh toán bằng các phương thức thanh toán hợp lệ và trực tiếp trên Trang Shopee nhưng (i) không nhận được Sản Phẩm, hoặc (ii) không nhận được toàn bộ các Sản Phẩm đã đặt, hoặc (iii) nhận được Sản Phẩm là hàng giả, hàng nhái; \n\nSản Phẩm bị lỗi hoặc bị hư hại trong quá trình vận chuyển; \n\nNgười Bán giao sai Sản Phẩm cho Người Mua (ví dụ: sai kích cỡ, sai màu sắc, v.v); \n\nSản Phẩm mà Người Mua nhận được khác biệt một cách rõ rệt so với thông tin mà Người Bán cung cấp trong mục mô tả sản phẩm; \n\nSản Phẩm hết hạn sử dụng; \n\nNgười Bán đã tự thỏa thuận và đồng ý cho Người Mua trả hàng (tuy nhiên Shopee sẽ cần Người Bán xác nhận lại những thỏa thuận này). Sản Phẩm ở trạng thái nguyên vẹn và nguyên bao bì nhưng Người Mua không còn nhu cầu (\"Trả hàng COM\"), theo yêu cầu tại Điều 4 dưới đây."
+                }
+              ],
+              "answer": "[1] doc_id=k4-returns-policy source=data\\k4_ecommerce\\returns-policy.md\nMột số trường hợp Người Mua có nhu cầu trả hàng/hoàn tiền sau thời hạn trên, Shopee sẽ xem xét và có thể hỗ trợ Người Mua được trả hàng/hoàn tiền trong phạm vi phù hợp với Chính Sách Shopee. Đối với các đơn hàng được thanh toán bằng hình thức Thanh toán khi nhận hàng (COD) và/hoặc Chuyển khoản ngân hàng, tài khoản Shopee của Người Mua phải liên kết với các phương thức nhận hoàn tiền hợp lệ theo quy định áp dụng của Shopee (ví dụ như Tài Khoản Ngân Hàng và/hoặc các ví điện tử hợp lệ như Ví ShopeePay) trước khi thực hiện yêu cầu Trả hàng / Hoàn tiền. [3] doc_id=k4-returns-policy source=data\\k4_ecommerce\\returns-policy.md\nĐIỀU KIỆN YÊU CẦU TRẢ HÀNG/HOÀN TIỀN \n\n3.1. Người Mua đồng ý rằng Người Mua chỉ có thể yêu cầu trả hàng/hoàn tiền trong các trường hợp sau: \n\nNgười Mua đã thanh toán bằng các phương thức thanh toán hợp lệ và trực tiếp trên Trang Shopee nhưng (i) không nhận được Sản Phẩm, hoặc (ii) không nhận được toàn bộ các Sản Phẩm đã đặt, hoặc (iii) nhận được Sản Phẩm là hàng giả, hàng nhái; \n\nSản Phẩm bị lỗi hoặc bị hư hại trong quá trình vận chuyển; \n\nNgười Bán giao sai Sản Phẩm cho Người Mua (ví dụ: sai kích cỡ, sai màu sắc, v.v); \n\nSản Phẩm mà Người Mua nhận được khác biệt một cách rõ rệt so với thông tin mà Người Bán cung cấp trong mục mô tả sản phẩm; \n\nSản Phẩm hết hạn sử dụng; \n\nNgười Bán đã tự thỏa thuận và đồng ý cho Người Mua trả hàng (tuy nhiên Shopee sẽ cần Người Bán xác nhận lại những thỏa thuận này).",
+              "evaluation": {
+                "score": 2,
+                "evidence_in_top3": true,
+                "evidence_ranks": [1],
+                "top1_evidence": true,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Pass: evidence ở top-1, chunk đủ coherent và câu trả lời grounded.",
+                "suggested_change": "Không cần sửa cho query này; tiếp tục kiểm tra trên query/corpus khác."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q5",
+          "question": "Người dùng có quyền yêu cầu xóa hoặc rút lại sự đồng ý sử dụng dữ liệu cá nhân không?",
+          "gold_doc_id": "k4-privacy-policy",
+          "evidence": "rút lại sự đồng ý",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-privacy-policy::chunk_31::79",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 31,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.638345,
+                  "semantic_score": 0.258776,
+                  "keyword_score": 0.665217,
+                  "relevant_evidence": false,
+                  "content": "SHOPEE CÓ TIẾT LỘ THÔNG TIN THU THẬP TỪ NGƯỜI TRUY CẬP HAY KHÔNG? 8.1 Trong quá trình thực hiện hoạt động kinh doanh, chúng tôi sẽ/có thể cần phải sử dụng, xử lý, tiết lộ và/hoặc chuyển giao dữ liệu cá nhân của bạn cho các nhà cung cấp dịch vụ bên thứ ba, đại lý và/hoặc các công ty liên kết hoặc công ty liên quan của chúng tôi, và/hoặc các bên thứ ba khác có thể ở Việt Nam hoặc bên ngoài Việt Nam, vì một hay nhiều Mục Đích nói trên, và việc tiết lộ này sẽ được thực hiện theo đúng trình tự và quy định của pháp luật hiện hành. Chúng tôi cũng có thể sử dụng, xử lý, tiết lộ và/hoặc chuyển giao dữ liệu cá nhân của bạn cho các nhà cung cấp dịch vụ, đại lý và bên thứ ba khác khi bạn yêu cầu hoặc chỉ thị chúng tôi thực hiện, bao gồm việc liên kết hoặc tích hợp tài khoản Shopee của bạn với các tài khoản khác mà bạn đang sở hữu với các nhà cung cấp bên thứ ba."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-privacy-policy::chunk_9::57",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 9,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.634298,
+                  "semantic_score": 0.268273,
+                  "keyword_score": 0.634783,
+                  "relevant_evidence": false,
+                  "content": "Chúng tôi có thể thu thập thông tin của bạn từ bạn, các công ty liên kết, các bên thứ ba và từ các nguồn khác, bao gồm nhưng không giới hạn ở đối tác kinh doanh (ví dụ như đơn vị cung ứng dịch vụ vận chuyển, thanh toán), cơ quan đánh giá tín dụng, các đơn vị, đối tác cung cấp dịch vụ marketing, giới thiệu, các chương trình khách hàng thân thiết, những người dùng khác sử dụng Các Dịch Vụ của chúng tôi hoặc các nguồn dữ liệu công khai có sẵn hay các nguồn dữ liệu của nhà nước. 2.3. Trong một số trường hợp, bạn có thể cung cấp dữ liệu cá nhân của các cá nhân khác cho chúng tôi (ví dụ như thành viên gia đình, bạn bè hoặc những người trong danh sách liên hệ của bạn)."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-privacy-policy::chunk_53::101",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 53,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.629446,
+                  "semantic_score": 0.093014,
+                  "keyword_score": 0.878261,
+                  "relevant_evidence": true,
+                  "content": "BẠN CÓ THỂ RÚT LẠI SỰ ĐỒNG Ý, YÊU CẦU HẠN CHẾ XỬ LÝ, PHẢN ĐỐI XỬ LÝ, YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN, TRUY CẬP HOẶC ĐIỀU CHỈNH THÔNG TIN BẠN ĐÃ CUNG CẤP CHO CHÚNG TÔI BẰNG CÁCH NÀO? 13.1. Rút Lại Sự Đồng Ý, Yêu cầu hạn chế, phản đối xử lý dữ liệu \n\n13.1.1 Bạn có thể rút lại sự đồng ý cho phép, yêu cầu hạn chế, phản đối trong việc thu thập, xử lý, sử dụng và/hoặc tiết lộ dữ liệu cá nhân của bạn mà chúng tôi đang lưu giữ hoặc kiểm soát bằng cách gửi email cho Chuyên viên Bảo Vệ Dữ Liệu Cá Nhân của chúng tôi tại địa chỉ email dpo.vn@shopee.com hoặc qua ĐÂY , và chúng tôi sẽ xử lý các yêu cầu này theo Chính Sách Bảo Mật cũng như quy định pháp luật có liên quan."
+                }
+              ],
+              "answer": "[3] doc_id=k4-privacy-policy source=data\\k4_ecommerce\\privacy-policy.md\nBẠN CÓ THỂ RÚT LẠI SỰ ĐỒNG Ý, YÊU CẦU HẠN CHẾ XỬ LÝ, PHẢN ĐỐI XỬ LÝ, YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN, TRUY CẬP HOẶC ĐIỀU CHỈNH THÔNG TIN BẠN ĐÃ CUNG CẤP CHO CHÚNG TÔI BẰNG CÁCH NÀO? Rút Lại Sự Đồng Ý, Yêu cầu hạn chế, phản đối xử lý dữ liệu \n\n13.1.1 Bạn có thể rút lại sự đồng ý cho phép, yêu cầu hạn chế, phản đối trong việc thu thập, xử lý, sử dụng và/hoặc tiết lộ dữ liệu cá nhân của bạn mà chúng tôi đang lưu giữ hoặc kiểm soát bằng cách gửi email cho Chuyên viên Bảo Vệ Dữ Liệu Cá Nhân của chúng tôi tại địa chỉ email dpo.vn@shopee.com hoặc qua ĐÂY , và chúng tôi sẽ xử lý các yêu cầu này theo Chính Sách Bảo Mật cũng như quy định pháp luật có liên quan.",
+              "evaluation": {
+                "score": 1,
+                "evidence_in_top3": true,
+                "evidence_ranks": [3],
+                "top1_evidence": false,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Evidence có trong top-3 nhưng không ở top-1 (ranks=[3]).",
+                "suggested_change": "Tăng trọng số lexical/evidence hoặc dùng reranker để ưu tiên mật độ thông tin trả lời."
+              }
+            }
+          ]
+        }
+      ],
+      "total_score": 5
+    },
+    "semantic": {
+      "chunk_count": 952,
+      "queries": [
+        {
+          "id": "Q1",
+          "question": "Thời hạn gửi yêu cầu trả hàng và hoàn tiền trên Shopee là bao lâu?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "15 (mười lăm) ngày",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-returns-policy::chunk_66::435",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 66,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.617873,
+                  "semantic_score": 0.301829,
+                  "keyword_score": 0.51875,
+                  "relevant_evidence": false,
+                  "content": "vi."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-returns-policy::chunk_16::385",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 16,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.617585,
+                  "semantic_score": 0.301061,
+                  "keyword_score": 0.51875,
+                  "relevant_evidence": false,
+                  "content": "Chính Sách Trả Hàng và Hoàn Tiền cho sản phẩm thuộc Shopee Mall được quy định tại Điều Khoản Dịch Vụ Shopee Mall ."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-returns-policy::chunk_30::399",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 30,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.610768,
+                  "semantic_score": 0.195381,
+                  "keyword_score": 0.65,
+                  "relevant_evidence": false,
+                  "content": "Tất cả các yêu cầu trả hàng hoàn tiền phải được thực hiện trên tài khoản Shopee của chính Người Mua đã đặt đơn hàng ."
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "question": "Người bán bị xử lý thế nào khi vi phạm quy định đăng bán sản phẩm bị cấm?",
+          "gold_doc_id": "k4-seller-listing",
+          "evidence": "xóa/khóa/tạm ẩn hiển thị sản phẩm",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-seller-listing::chunk_112::626",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 112,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.70574,
+                  "semantic_score": 0.434913,
+                  "keyword_score": 0.670588,
+                  "relevant_evidence": false,
+                  "content": "Đối với các sản phẩm trưng bày, giới thiệu trên Shopee là các sản phẩm trên 15 độ cồn cần đáp ứng các quy định dưới đây: \n\n+ Về nhãn hàng hóa theo quy định của Nghị định 43/2017/NĐ-CP về nhãn hàng hóa (mục 7 Phụ lục I); \n\n+ Mô tả sản phẩm dưới dạng tài liệu về hàng hóa, dịch vụ để giới thiệu với khách hàng trong hoạt động trưng bày, giới thiệu hàng hóa, dịch vụ theo quy định tại Điều 117, Điều 120, Điều 121) Luật Thương mại 2005 ; \n\n+ Phù hợp với quy định về cung cấp thông tin hàng hóa, dịch vụ "
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-seller-listing::chunk_110::624",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 110,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.651608,
+                  "semantic_score": 0.318014,
+                  "keyword_score": 0.629412,
+                  "relevant_evidence": false,
+                  "content": "Người Bán phải tuân thủ quy định tại Điều 16 của Luật Phòng, chống tác hại của rượu, bia số 44/2019/QH14 về điều kiện bán rượu, bia theo hình thức thương mại điện tử; Nghị định số 24/2020/NĐ-CP của Chính phủ quy định chi tiết một số điều của Luật phòng, chống tác hại của rượu, bia và các quy định pháp luật liên quan tới hoạt động kinh doanh rượu, bia; \n\nii."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_181::695",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 181,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.647607,
+                  "semantic_score": 0.307344,
+                  "keyword_score": 0.629412,
+                  "relevant_evidence": false,
+                  "content": "Nếu bài đăng cho nhiều sản phẩm, phải để giá rõ ràng cho từng sản phẩm."
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            },
+            {
+              "variant": "filtered",
+              "metadata_filter": {
+                "customer_role": "seller"
+              },
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-seller-listing::chunk_112::626",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 112,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.70574,
+                  "semantic_score": 0.434913,
+                  "keyword_score": 0.670588,
+                  "relevant_evidence": false,
+                  "content": "Đối với các sản phẩm trưng bày, giới thiệu trên Shopee là các sản phẩm trên 15 độ cồn cần đáp ứng các quy định dưới đây: \n\n+ Về nhãn hàng hóa theo quy định của Nghị định 43/2017/NĐ-CP về nhãn hàng hóa (mục 7 Phụ lục I); \n\n+ Mô tả sản phẩm dưới dạng tài liệu về hàng hóa, dịch vụ để giới thiệu với khách hàng trong hoạt động trưng bày, giới thiệu hàng hóa, dịch vụ theo quy định tại Điều 117, Điều 120, Điều 121) Luật Thương mại 2005 ; \n\n+ Phù hợp với quy định về cung cấp thông tin hàng hóa, dịch vụ "
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-seller-listing::chunk_110::624",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 110,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.651608,
+                  "semantic_score": 0.318014,
+                  "keyword_score": 0.629412,
+                  "relevant_evidence": false,
+                  "content": "Người Bán phải tuân thủ quy định tại Điều 16 của Luật Phòng, chống tác hại của rượu, bia số 44/2019/QH14 về điều kiện bán rượu, bia theo hình thức thương mại điện tử; Nghị định số 24/2020/NĐ-CP của Chính phủ quy định chi tiết một số điều của Luật phòng, chống tác hại của rượu, bia và các quy định pháp luật liên quan tới hoạt động kinh doanh rượu, bia; \n\nii."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_181::695",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 181,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.647607,
+                  "semantic_score": 0.307344,
+                  "keyword_score": 0.629412,
+                  "relevant_evidence": false,
+                  "content": "Nếu bài đăng cho nhiều sản phẩm, phải để giá rõ ràng cho từng sản phẩm."
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ],
+          "filter_ab_identical": true
+        },
+        {
+          "id": "Q3",
+          "question": "Quy định về thời gian phản hồi của Người Bán khi nhận yêu cầu trả hàng là bao lâu?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "02 ngày lịch",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-returns-policy::chunk_11::380",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 11,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.653997,
+                  "semantic_score": 0.388438,
+                  "keyword_score": 0.533333,
+                  "relevant_evidence": false,
+                  "content": "Thời Gian Shopee Đảm Bảo đã được quy định trong Điều Khoản Dịch Vụ."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-returns-policy::chunk_62::431",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 62,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.617806,
+                  "semantic_score": 0.291926,
+                  "keyword_score": 0.533333,
+                  "relevant_evidence": false,
+                  "content": "Quyền Trả hàng COM sẽ bị chấm dứt ngay lập tức ngay khi gói ShopeeVIP của Người Mua hết hiệu lực hoặc bị Shopee loại khỏi gói ShopeeVIP theo các chính sách, quy định của Shopee."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_1::515",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 1,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.610185,
+                  "semantic_score": 0.329939,
+                  "keyword_score": 0.445833,
+                  "relevant_evidence": false,
+                  "content": "QUY ĐỊNH VỀ ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE\n\nA."
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q4",
+          "question": "Điều kiện để Người Mua nhận hoàn tiền khi thanh toán bằng COD là gì?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "liên kết với các phương thức nhận hoàn tiền hợp lệ",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-returns-policy::chunk_30::399",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 30,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.645969,
+                  "semantic_score": 0.343097,
+                  "keyword_score": 0.569231,
+                  "relevant_evidence": false,
+                  "content": "Tất cả các yêu cầu trả hàng hoàn tiền phải được thực hiện trên tài khoản Shopee của chính Người Mua đã đặt đơn hàng ."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-payment-policy::chunk_59::59",
+                  "doc_id": "k4-payment-policy",
+                  "chunk_index": 59,
+                  "source": "data\\k4_ecommerce\\payment-policy.md",
+                  "score": 0.627887,
+                  "semantic_score": 0.294878,
+                  "keyword_score": 0.569231,
+                  "relevant_evidence": false,
+                  "content": "Giao dịch hoặc thanh toán đơn hàng được thực hiện trên nền tảng Shopee bằng cách sử dụng SPayLater là phương thức thanh toán trả sau và / hoặc thanh toán trả góp với phí chuyển đổi trả góp tương ứng với kỳ hạn đã chọn hoặc đã thỏa thuận trong Hợp đồng tín dụng."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-returns-policy::chunk_101::470",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 101,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.625422,
+                  "semantic_score": 0.21651,
+                  "keyword_score": 0.676923,
+                  "relevant_evidence": false,
+                  "content": "Shopee sẽ hoàn lại số tiền bằng với chi phí vận chuyển mà Người Mua đã thanh toán cho đơn vị vận chuyển thông qua “Số Dư Tài Khoản Shopee” trên Ứng Dụng Shopee trong thời hạn 03 – 05 ngày làm việc kể từ ngày Người Mua đã gửi Sản Phẩm Hoàn Trả cho đơn vị vận chuyển và yêu cầu trả hàng/hoàn tiền của Người Mua được chấp nhận."
+                }
+              ],
+              "answer": "[1] doc_id=k4-returns-policy source=data\\k4_ecommerce\\returns-policy.md\nTất cả các yêu cầu trả hàng hoàn tiền phải được thực hiện trên tài khoản Shopee của chính Người Mua đã đặt đơn hàng . [3] doc_id=k4-returns-policy source=data\\k4_ecommerce\\returns-policy.md\nShopee sẽ hoàn lại số tiền bằng với chi phí vận chuyển mà Người Mua đã thanh toán cho đơn vị vận chuyển thông qua “Số Dư Tài Khoản Shopee” trên Ứng Dụng Shopee trong thời hạn 03 – 05 ngày làm việc kể từ ngày Người Mua đã gửi Sản Phẩm Hoàn Trả cho đơn vị vận chuyển và yêu cầu trả hàng/hoàn tiền của Người Mua được chấp nhận.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q5",
+          "question": "Người dùng có quyền yêu cầu xóa hoặc rút lại sự đồng ý sử dụng dữ liệu cá nhân không?",
+          "gold_doc_id": "k4-privacy-policy",
+          "evidence": "rút lại sự đồng ý",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-privacy-policy::chunk_72::218",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 72,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.648235,
+                  "semantic_score": 0.366306,
+                  "keyword_score": 0.543478,
+                  "relevant_evidence": false,
+                  "content": "Thông tin này được sử dụng để theo dõi giỏ hàng, để chuyển tải nội dung phù hợp với sở thích của bạn, để cho phép các đối tác cung cấp dịch vụ quảng cáo cung cấp dịch vụ quảng cáo trên các trang thông qua mạng Internet và để thực hiện phân tích dữ liệu và hoặc theo dõi việc sử dụng Dịch vụ \n\n5.2."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-privacy-policy::chunk_48::194",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 48,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.621789,
+                  "semantic_score": 0.092888,
+                  "keyword_score": 0.847826,
+                  "relevant_evidence": true,
+                  "content": "Có thể tìm thấy thêm thông tin về nội dung trong mục \" Bạn có thể rút lại sự đồng ý, yêu cầu xóa, hạn chế xử lý, phản đối xử lý, yêu cầu cung cấp dữ liệu cá nhân, truy cập hoặc điều chỉnh thông tin bạn đã cung cấp cho chúng tôi bằng cách nào?"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-privacy-policy::chunk_89::235",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 89,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.616366,
+                  "semantic_score": 0.220455,
+                  "keyword_score": 0.634783,
+                  "relevant_evidence": false,
+                  "content": "g ty của bạn); \n\nđể lập số liệu thống kê và nghiên cứu đáp ứng yêu cầu báo cáo và/hoặc duy trì sổ sách nội bộ hoặc theo quy định; \n\nđể thực hiện quy trình tìm hiểu và xác minh hoặc các hoạt động sàng lọc khác (bao gồm nhưng không giới hạn kiểm tra lý lịch) tuân thủ các nghĩa vụ theo quy định pháp luật hoặc cơ quan nhà nước có thẩm quyền hoặc các thủ tục kiểm soát rủi ro của chúng tôi, có thể được pháp luật yêu cầu hoặc có thể đã được chúng tôi áp dụng; \n\nđể kiểm tra Các Dịch Vụ của chúng tôi hoặ"
+                }
+              ],
+              "answer": "[2] doc_id=k4-privacy-policy source=data\\k4_ecommerce\\privacy-policy.md\nCó thể tìm thấy thêm thông tin về nội dung trong mục \" Bạn có thể rút lại sự đồng ý, yêu cầu xóa, hạn chế xử lý, phản đối xử lý, yêu cầu cung cấp dữ liệu cá nhân, truy cập hoặc điều chỉnh thông tin bạn đã cung cấp cho chúng tôi bằng cách nào?",
+              "evaluation": {
+                "score": 1,
+                "evidence_in_top3": true,
+                "evidence_ranks": [2],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Evidence có trong top-3 nhưng không ở top-1 (ranks=[2]).",
+                "suggested_change": "Tăng trọng số lexical/evidence hoặc dùng reranker để ưu tiên mật độ thông tin trả lời."
+              }
+            }
+          ]
+        }
+      ],
+      "total_score": 1
+    },
+    "recursive": {
+      "chunk_count": 364,
+      "queries": [
+        {
+          "id": "Q1",
+          "question": "Thời hạn gửi yêu cầu trả hàng và hoàn tiền trên Shopee là bao lâu?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "15 (mười lăm) ngày",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-shipping-policy::chunk_10::308",
+                  "doc_id": "k4-shipping-policy",
+                  "chunk_index": 10,
+                  "source": "data\\k4_ecommerce\\shipping-policy.md",
+                  "score": 0.654585,
+                  "semantic_score": 0.37056,
+                  "keyword_score": 0.5625,
+                  "relevant_evidence": false,
+                  "content": "i. Để đảm bảo duy trì chất lượng sản phẩm và tránh các trường hợp hư hỏng ngoài ý muốn, Người Bán chỉ nên kích hoạt và tiến hành giao hàng qua đơn vị vận chuyển Hỏa tốc.\n\nii. Trường hợp nếu Người Bán lựa chọn các kênh vận chuyển khác không phải Hỏa Tốc, Người Bán sẽ hoàn toàn chịu trách nhiệm nếu có hư hỏng, tổn thất khi vận chuyển. Shopee được miễn trừ mọi trách trách nhiệm, và sẽ không giải quyết bất kỳ khiếu nại, yêu cầu bồi thường nào phát sinh.\n\niii. Xem chi tiết TẠI ĐÂY"
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-returns-policy::chunk_40::225",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 40,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.638819,
+                  "semantic_score": 0.182684,
+                  "keyword_score": 0.78125,
+                  "relevant_evidence": false,
+                  "content": "Theo hình thức “Tự sắp xếp”: Người Mua cần thanh toán trước chi phí vận chuyển cho việc trả hàng. Shopee sẽ hoàn lại số tiền bằng với chi phí vận chuyển mà Người Mua đã thanh toán cho đơn vị vận chuyển thông qua “Số Dư Tài Khoản Shopee” trên Ứng Dụng Shopee trong thời hạn 03 – 05 ngày làm việc kể từ ngày Người Mua đã gửi Sản Phẩm Hoàn Trả cho đơn vị vận chuyển và yêu cầu trả hàng/hoàn tiền của Người Mua được chấp nhận."
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-shipping-policy::chunk_41::339",
+                  "doc_id": "k4-shipping-policy",
+                  "chunk_index": 41,
+                  "source": "data\\k4_ecommerce\\shipping-policy.md",
+                  "score": 0.620427,
+                  "semantic_score": 0.191971,
+                  "keyword_score": 0.69375,
+                  "relevant_evidence": false,
+                  "content": "3. Bằng chứng khiếu nại:\n\na. Khiếu nại với đơn trả hàng hoàn tiền (dành cho Người Mua/ Người Bán): Xem chi tiết tại Chính sách Trả hàng và Hoàn tiền .\n\nb. Khiếu nại vận chuyển với đơn Giao không thành công (dành cho Người Bán):\n\nKhi khiếu nại, Người Bán cần cung cấp các thông tin sau cho Shopee:\n\ni. Hình ảnh/Video quá trình đóng gói hàng thấy rõ: (video là bằng chứng mạnh nhất được khuyến khích cung cấp khi phát sinh khiếu nại):\n\n- Thông tin đơn hàng (mã đơn hàng/ mã vận đơn);"
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q2",
+          "question": "Người bán bị xử lý thế nào khi vi phạm quy định đăng bán sản phẩm bị cấm?",
+          "gold_doc_id": "k4-seller-listing",
+          "evidence": "xóa/khóa/tạm ẩn hiển thị sản phẩm",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-seller-listing::chunk_0::245",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 0,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.672173,
+                  "semantic_score": 0.345403,
+                  "keyword_score": 0.670588,
+                  "relevant_evidence": false,
+                  "content": "# Quy định về đăng bán sản phẩm và hàng cấm\n\nQUY ĐỊNH VỀ ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE | Shopee Trung tâm trợ giúp\n\nXin chào, Shopee có thể giúp gì cho bạn?\n\nQUY ĐỊNH VỀ ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE\n\nA. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG\n\n1. Đối tượng áp dụng\n\nQuy định này áp dụng đối với tất cả Người Bán trên Sàn TMĐT Shopee (“ Sàn Shopee ”)\n\n2. Phạm vi áp dụng\n\nQuy định này quy định về việc đăng bán các sản phẩm trên Sàn Shopee.\n\nB. QUY ĐỊNH CHUNG:\n\n1. Nguyên tắc chung"
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-seller-listing::chunk_23::268",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 23,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.663415,
+                  "semantic_score": 0.322049,
+                  "keyword_score": 0.670588,
+                  "relevant_evidence": false,
+                  "content": "iii. Đối với các sản phẩm trưng bày, giới thiệu trên Shopee là các sản phẩm trên 15 độ cồn cần đáp ứng các quy định dưới đây:\n\n+ Về nhãn hàng hóa theo quy định của Nghị định 43/2017/NĐ-CP về nhãn hàng hóa (mục 7 Phụ lục I);\n\n+ Mô tả sản phẩm dưới dạng tài liệu về hàng hóa, dịch vụ để giới thiệu với khách hàng trong hoạt động trưng bày, giới thiệu hàng hóa, dịch vụ theo quy định tại Điều 117, Điều 120, Điều 121) Luật Thương mại 2005 ;"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_49::294",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 49,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.644481,
+                  "semantic_score": 0.051948,
+                  "keyword_score": 1.0,
+                  "relevant_evidence": true,
+                  "content": "Người Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có"
+                }
+              ],
+              "answer": "Đối với các sản phẩm trưng bày, giới thiệu trên Shopee là các sản phẩm trên 15 độ cồn cần đáp ứng các quy định dưới đây:\n\n+ Về nhãn hàng hóa theo quy định của Nghị định 43/2017/NĐ-CP về nhãn hàng hóa (mục 7 Phụ lục I);\n\n+ Mô tả sản phẩm dưới dạng tài liệu về hàng hóa, dịch vụ để giới thiệu với khách hàng trong hoạt động trưng bày, giới thiệu hàng hóa, dịch vụ theo quy định tại Điều 117, Điều 120, Điều 121) Luật Thương mại 2005 ;\n\n[3] doc_id=k4-seller-listing source=data\\k4_ecommerce\\seller-listing.md\nNgười Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có",
+              "evaluation": {
+                "score": 1,
+                "evidence_in_top3": true,
+                "evidence_ranks": [3],
+                "top1_evidence": false,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Evidence có trong top-3 nhưng không ở top-1 (ranks=[3]).",
+                "suggested_change": "Tăng trọng số lexical/evidence hoặc dùng reranker để ưu tiên mật độ thông tin trả lời."
+              }
+            },
+            {
+              "variant": "filtered",
+              "metadata_filter": {
+                "customer_role": "seller"
+              },
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-seller-listing::chunk_0::245",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 0,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.672173,
+                  "semantic_score": 0.345403,
+                  "keyword_score": 0.670588,
+                  "relevant_evidence": false,
+                  "content": "# Quy định về đăng bán sản phẩm và hàng cấm\n\nQUY ĐỊNH VỀ ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE | Shopee Trung tâm trợ giúp\n\nXin chào, Shopee có thể giúp gì cho bạn?\n\nQUY ĐỊNH VỀ ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE\n\nA. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG\n\n1. Đối tượng áp dụng\n\nQuy định này áp dụng đối với tất cả Người Bán trên Sàn TMĐT Shopee (“ Sàn Shopee ”)\n\n2. Phạm vi áp dụng\n\nQuy định này quy định về việc đăng bán các sản phẩm trên Sàn Shopee.\n\nB. QUY ĐỊNH CHUNG:\n\n1. Nguyên tắc chung"
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-seller-listing::chunk_23::268",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 23,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.663415,
+                  "semantic_score": 0.322049,
+                  "keyword_score": 0.670588,
+                  "relevant_evidence": false,
+                  "content": "iii. Đối với các sản phẩm trưng bày, giới thiệu trên Shopee là các sản phẩm trên 15 độ cồn cần đáp ứng các quy định dưới đây:\n\n+ Về nhãn hàng hóa theo quy định của Nghị định 43/2017/NĐ-CP về nhãn hàng hóa (mục 7 Phụ lục I);\n\n+ Mô tả sản phẩm dưới dạng tài liệu về hàng hóa, dịch vụ để giới thiệu với khách hàng trong hoạt động trưng bày, giới thiệu hàng hóa, dịch vụ theo quy định tại Điều 117, Điều 120, Điều 121) Luật Thương mại 2005 ;"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_49::294",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 49,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.644481,
+                  "semantic_score": 0.051948,
+                  "keyword_score": 1.0,
+                  "relevant_evidence": true,
+                  "content": "Người Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có"
+                }
+              ],
+              "answer": "Đối với các sản phẩm trưng bày, giới thiệu trên Shopee là các sản phẩm trên 15 độ cồn cần đáp ứng các quy định dưới đây:\n\n+ Về nhãn hàng hóa theo quy định của Nghị định 43/2017/NĐ-CP về nhãn hàng hóa (mục 7 Phụ lục I);\n\n+ Mô tả sản phẩm dưới dạng tài liệu về hàng hóa, dịch vụ để giới thiệu với khách hàng trong hoạt động trưng bày, giới thiệu hàng hóa, dịch vụ theo quy định tại Điều 117, Điều 120, Điều 121) Luật Thương mại 2005 ;\n\n[3] doc_id=k4-seller-listing source=data\\k4_ecommerce\\seller-listing.md\nNgười Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có",
+              "evaluation": {
+                "score": 1,
+                "evidence_in_top3": true,
+                "evidence_ranks": [3],
+                "top1_evidence": false,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Evidence có trong top-3 nhưng không ở top-1 (ranks=[3]).",
+                "suggested_change": "Tăng trọng số lexical/evidence hoặc dùng reranker để ưu tiên mật độ thông tin trả lời."
+              }
+            }
+          ],
+          "filter_ab_identical": true
+        },
+        {
+          "id": "Q3",
+          "question": "Quy định về thời gian phản hồi của Người Bán khi nhận yêu cầu trả hàng là bao lâu?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "02 ngày lịch",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-seller-listing::chunk_13::258",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 13,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.633297,
+                  "semantic_score": 0.35268,
+                  "keyword_score": 0.504167,
+                  "relevant_evidence": false,
+                  "content": "d. Hình ảnh không chứa yếu tố ghê rợn gây khó chịu cho người xem.\n\ne. Tuyệt đối không được đăng các hình ảnh khỏa thân, khiêu gợi, phản cảm, không phù hợp với thuần phong mỹ tục.\n\n2. Tên sản phẩm\n\na. Tên sản phẩm phải mô tả đúng hàng hóa, dịch vụ được đăng bán và phải là tiếng Việt có dấu, đủ ký tự, rõ nghĩa, không dùng các ký tự đặc biệt, không viết tắt.\n\nb. Tên gọi của sản phẩm phải trùng khớp với thông tin trên hình ảnh sản phẩm."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-returns-policy::chunk_19::204",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 19,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.613104,
+                  "semantic_score": 0.240501,
+                  "keyword_score": 0.591667,
+                  "relevant_evidence": false,
+                  "content": "b. Đối với Người Mua sử dụng Gói ShopeeVIP, hạn mức Trả hàng COM là 15 (mười lăm) lần trong mỗi tháng dương lịch được tính bắt đầu từ thời điểm Gói ShopeeVIP được Người Mua đăng ký thành công và Người Mua vẫn được hưởng quyền lợi này cho đến khi chấm dứt Gói ShopeeVIP (vì bất kỳ lý do gì), trừ trường hợp Người Mua thực hiện bất cứ hành vi nào vi phạm các Chính sách của Sàn TMĐT Shopee, bao gồm nhưng không giới hạn ở Điều khoản dịch vụ"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-seller-listing::chunk_49::294",
+                  "doc_id": "k4-seller-listing",
+                  "chunk_index": 49,
+                  "source": "data\\k4_ecommerce\\seller-listing.md",
+                  "score": 0.603238,
+                  "semantic_score": 0.214191,
+                  "keyword_score": 0.591667,
+                  "relevant_evidence": false,
+                  "content": "Người Bán vi phạm một trong các quy định trên trong quá trình đăng bán sản phẩm, tùy theo mức độ vi phạm, Shopee sẽ tiến hành một số biện pháp xử lý phù hợp bao gồm nhưng không giới hạn (i) xóa/khóa/tạm ẩn hiển thị sản phẩm; (ii) giới hạn/khóa tài khoản; (iii) yêu cầu Người bán đền bù thiệt hại cho Người mua hàng/Người sử dụng hàng hóa, dịch vụ; (iv) cấn trừ tiền từ Số dư Tài Khoản Shopee, (v) khóa tính năng rút tiền từ Số dư Tài Khoản Shopee, (vi) cung cấp thông tin cho cơ quan nhà nước có"
+                }
+              ],
+              "answer": "Không đủ thông tin trong context đã truy xuất.",
+              "evaluation": {
+                "score": 0,
+                "evidence_in_top3": false,
+                "evidence_ranks": [],
+                "top1_evidence": false,
+                "coherent": false,
+                "answer_correct": false,
+                "grounded": false,
+                "failure_reason": "Top-3 không chứa chunk có evidence đặc trưng; doc_id (nếu có) không đủ để coi là đúng.",
+                "suggested_change": "Đổi chunk boundary/overlap hoặc rerank theo cụm evidence; kiểm tra lại query expansion."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q4",
+          "question": "Điều kiện để Người Mua nhận hoàn tiền khi thanh toán bằng COD là gì?",
+          "gold_doc_id": "k4-returns-policy",
+          "evidence": "liên kết với các phương thức nhận hoàn tiền hợp lệ",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-payment-policy::chunk_16::16",
+                  "doc_id": "k4-payment-policy",
+                  "chunk_index": 16,
+                  "source": "data\\k4_ecommerce\\payment-policy.md",
+                  "score": 0.647773,
+                  "semantic_score": 0.347907,
+                  "keyword_score": 0.569231,
+                  "relevant_evidence": false,
+                  "content": "3.4. Shopee và Bên cho vay sẽ có quyền đánh giá tín dụng, thẩm định hồ sơ khách hàng và / hoặc bất kỳ hành động nào khác để kiểm tra bạn có đủ điều kiện được cấp Khoản tín dụng cũng như khả năng hoàn trả Khoản tín dụng được cấp hay không."
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-returns-policy::chunk_11::196",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 11,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.635336,
+                  "semantic_score": 0.063461,
+                  "keyword_score": 0.946154,
+                  "relevant_evidence": true,
+                  "content": "3.3. Đối với các đơn hàng được thanh toán bằng hình thức Thanh toán khi nhận hàng (COD) và/hoặc Chuyển khoản ngân hàng, tài khoản Shopee của Người Mua phải liên kết với các phương thức nhận hoàn tiền hợp lệ theo quy định áp dụng của Shopee (ví dụ như Tài Khoản Ngân Hàng và/hoặc các ví điện tử hợp lệ như Ví ShopeePay) trước khi thực hiện yêu cầu Trả hàng / Hoàn tiền"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-returns-policy::chunk_28::213",
+                  "doc_id": "k4-returns-policy",
+                  "chunk_index": 28,
+                  "source": "data\\k4_ecommerce\\returns-policy.md",
+                  "score": 0.633185,
+                  "semantic_score": 0.273107,
+                  "keyword_score": 0.623077,
+                  "relevant_evidence": false,
+                  "content": "Khi thực hiện yêu cầu Trả hàng COM, Người Mua đồng ý cho Shopee cung cấp các thông tin được nêu tại Điều 4.3.a nêu trên cho Người Bán.\n\n4.4 Điều khoản loại trừ liên quan đến Trả hàng COM đối với một số Người bán và/hoặc nhóm sản phẩm\n\nTrả hàng COM sẽ không áp dụng với đối với một số Người bán và/hoặc nhóm sản phẩm nhất định dù Người mua thỏa các điều kiện ở Điều 4.1 nêu trên, bao gồm nhưng không giới hạn ở những Người bán và sản phẩm sau:\n\na. C ác sản phẩm thuộc Shopee Mart ;"
+                }
+              ],
+              "answer": "Đối với các đơn hàng được thanh toán bằng hình thức Thanh toán khi nhận hàng (COD) và/hoặc Chuyển khoản ngân hàng, tài khoản Shopee của Người Mua phải liên kết với các phương thức nhận hoàn tiền hợp lệ theo quy định áp dụng của Shopee (ví dụ như Tài Khoản Ngân Hàng và/hoặc các ví điện tử hợp lệ như Ví ShopeePay) trước khi thực hiện yêu cầu Trả hàng / Hoàn tiền\n\n[3] doc_id=k4-returns-policy source=data\\k4_ecommerce\\returns-policy.md\nKhi thực hiện yêu cầu Trả hàng COM, Người Mua đồng ý cho Shopee cung cấp các thông tin được nêu tại Điều 4.3.a nêu trên cho Người Bán.",
+              "evaluation": {
+                "score": 1,
+                "evidence_in_top3": true,
+                "evidence_ranks": [2],
+                "top1_evidence": false,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Evidence có trong top-3 nhưng không ở top-1 (ranks=[2]).",
+                "suggested_change": "Tăng trọng số lexical/evidence hoặc dùng reranker để ưu tiên mật độ thông tin trả lời."
+              }
+            }
+          ]
+        },
+        {
+          "id": "Q5",
+          "question": "Người dùng có quyền yêu cầu xóa hoặc rút lại sự đồng ý sử dụng dữ liệu cá nhân không?",
+          "gold_doc_id": "k4-privacy-policy",
+          "evidence": "rút lại sự đồng ý",
+          "variants": [
+            {
+              "variant": "unfiltered",
+              "metadata_filter": null,
+              "top3": [
+                {
+                  "rank": 1,
+                  "id": "k4-privacy-policy::chunk_120::171",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 120,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.622474,
+                  "semantic_score": 0.074423,
+                  "keyword_score": 0.878261,
+                  "relevant_evidence": true,
+                  "content": "13.1.1 Bạn có thể rút lại sự đồng ý cho phép, yêu cầu hạn chế, phản đối trong việc thu thập, xử lý, sử dụng và/hoặc tiết lộ dữ liệu cá nhân của bạn mà chúng tôi đang lưu giữ hoặc kiểm soát bằng cách gửi email cho Chuyên viên Bảo Vệ Dữ Liệu Cá Nhân của chúng tôi tại địa chỉ email dpo.vn@shopee.com hoặc qua ĐÂY , và chúng tôi sẽ xử lý các yêu cầu này theo Chính Sách Bảo Mật cũng như quy định pháp luật có liên quan"
+                },
+                {
+                  "rank": 2,
+                  "id": "k4-privacy-policy::chunk_33::84",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 33,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.616813,
+                  "semantic_score": 0.221646,
+                  "keyword_score": 0.634783,
+                  "relevant_evidence": false,
+                  "content": "Chúng tôi thu thập, sử dụng, công bố và/hoặc xử lý các thông tin này cho một hoặc nhiều mục đích bao gồm nhưng không giới hạn các dịch vụ được cung cấp dựa trên vị trí mà bạn yêu cầu hoặc chuyển các nội dung có liên quan đến bạn dựa trên vị trí của bạn hoặc cho phép bạn chia sẻ vị trí của bạn cho các Người sử dụng khác như là một phần của các Dịch vụ được cung cấp bởi các ứng dụng di động của chúng tôi"
+                },
+                {
+                  "rank": 3,
+                  "id": "k4-privacy-policy::chunk_20::71",
+                  "doc_id": "k4-privacy-policy",
+                  "chunk_index": 20,
+                  "source": "data\\k4_ecommerce\\privacy-policy.md",
+                  "score": 0.610105,
+                  "semantic_score": 0.264627,
+                  "keyword_score": 0.543478,
+                  "relevant_evidence": false,
+                  "content": "thông tin sử dụng và giao dịch, bao gồm chi tiết về lịch sử tìm kiếm, giao dịch, quảng cáo và nội dung hiển thị mà tương tác với Nền Tảng, cũng như các sản phẩm và dịch vụ có liên quan của bạn;\n\ndữ liệu về địa điểm;\n\nbất kỳ thông tin nào khác về người dùng khi người dùng đăng nhập để sử dụng Các Dịch Vụ hoặc Nền tảng của chúng tôi, và khi người dùng sử dụng Các Dịch Vụ hoặc Nền tảng, cũng như thông tin về việc người dùng sử dụng Các Dịch Vụ hoặc Nền tảng của chúng tôi như thế nào; và"
+                }
+              ],
+              "answer": "[1] doc_id=k4-privacy-policy source=data\\k4_ecommerce\\privacy-policy.md\n13.1.1 Bạn có thể rút lại sự đồng ý cho phép, yêu cầu hạn chế, phản đối trong việc thu thập, xử lý, sử dụng và/hoặc tiết lộ dữ liệu cá nhân của bạn mà chúng tôi đang lưu giữ hoặc kiểm soát bằng cách gửi email cho Chuyên viên Bảo Vệ Dữ Liệu Cá Nhân của chúng tôi tại địa chỉ email dpo.vn@shopee.com hoặc qua ĐÂY , và chúng tôi sẽ xử lý các yêu cầu này theo Chính Sách Bảo Mật cũng như quy định pháp luật có liên quan\n\n[2] doc_id=k4-privacy-policy source=data\\k4_ecommerce\\privacy-policy.md\nChúng tôi thu thập, sử dụng, công bố và/hoặc xử lý các thông tin này cho một hoặc nhiều mục đích bao gồm nhưng không giới hạn các dịch vụ được cung cấp dựa trên vị trí mà bạn yêu cầu hoặc chuyển các nội dung có liên quan đến bạn dựa trên vị trí của bạn hoặc cho phép bạn chia sẻ vị trí của bạn cho các Người sử dụng khác như là một phần của các Dịch vụ được cung cấp bởi các ứng dụng di động của chúng tôi\n\n[3] doc_id=k4-privacy-policy source=data\\k4_ecommerce\\privacy-policy.md\nthông tin sử dụng và giao dịch, bao gồm chi tiết về lịch sử tìm kiếm, giao dịch, quảng cáo và nội dung hiển thị mà tương tác với Nền Tảng, cũng như các sản phẩm và dịch vụ có liên quan của bạn;\n\ndữ liệu về địa điểm;\n\nbất kỳ thông tin nào khác về người dùng khi người dùng đăng nhập để sử dụng Các Dịch Vụ hoặc Nền tảng của chúng tôi, và khi người dùng sử dụng Các Dịch Vụ hoặc Nền tảng, cũng như thông tin về việc người dùng sử dụng Các Dịch Vụ hoặc Nền tảng của chúng tôi như thế nào; và",
+              "evaluation": {
+                "score": 2,
+                "evidence_in_top3": true,
+                "evidence_ranks": [1],
+                "top1_evidence": true,
+                "coherent": true,
+                "answer_correct": true,
+                "grounded": true,
+                "failure_reason": "Pass: evidence ở top-1, chunk đủ coherent và câu trả lời grounded.",
+                "suggested_change": "Không cần sửa cho query này; tiếp tục kiểm tra trên query/corpus khác."
+              }
+            }
+          ]
+        }
+      ],
+      "total_score": 4
+    }
+  }
+}
