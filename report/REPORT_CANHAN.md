@@ -4,7 +4,7 @@
 **Nhóm:** Gicungduoc
 **Ngày:** 03/08/2026
 
-Báo cáo này mô tả phần cài đặt cá nhân và kết quả benchmark trên cùng năm câu hỏi của nhóm. Benchmark được chạy với `LocalEmbedder` dùng model `paraphrase-multilingual-MiniLM-L12-v2`; các kết quả retrieval được đối chiếu từ `docs/RUN_BENCHMARK_RESULT.md` và chấm theo `docs/SCORING.md`.
+Báo cáo này mô tả phần cài đặt cá nhân và kết quả benchmark trên cùng năm câu hỏi của nhóm. Benchmark được chạy với `LocalEmbedder` dùng model `paraphrase-multilingual-MiniLM-L12-v2`; các kết quả retrieval được đối chiếu từ `report/RUN_BENCHMARK_RESULT.md` và chấm theo `docs/SCORING.md`.
 
 ## 1. Khởi động (Warm-up) - Cá nhân (5 điểm)
 
@@ -157,7 +157,7 @@ Các giá trị dưới đây được tính bằng `compute_similarity` với `
 
 ## 5. Kết quả truy xuất của tôi (Competition Results) - Cá nhân (10 điểm)
 
-Trong bốn cấu hình, tôi chọn **recursive** làm cấu hình đại diện để chấm điểm cá nhân vì nó giữ được các chunk liên quan ở vị trí tốt, đồng thời bảo toàn ngữ cảnh câu trả lời. Các score và ID dưới đây lấy nguyên từ phần `STRATEGY: recursive` trong `docs/RUN_BENCHMARK_RESULT.md`.
+Trong bốn cấu hình, tôi chọn **recursive** làm cấu hình đại diện để chấm điểm cá nhân vì nó giữ được các chunk liên quan ở vị trí tốt, đồng thời bảo toàn ngữ cảnh câu trả lời. Các score và ID dưới đây lấy nguyên từ phần `STRATEGY: recursive` trong `report/RUN_BENCHMARK_RESULT.md`.
 
 | #   | Câu hỏi                                                                               | Top-1 chunk và score                                                                    | Liên quan?                                                      | Câu trả lời đối chiếu từ top-3                                                                                                                              |
 | --- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -177,7 +177,7 @@ Metadata filter có ích rõ nhất ở Q2: nó giới hạn không gian tìm ki
 
 ## 6. Phân tích các metrics retrieval
 
-Các metrics dưới đây được ghi nhận trên cấu hình đại diện `recursive`, với cùng năm benchmark query trong `docs/RUN_BENCHMARK_RESULT.md`.
+Các metrics dưới đây được ghi nhận trên cấu hình đại diện `recursive`, với cùng năm benchmark query trong `report/RUN_BENCHMARK_RESULT.md`.
 
 | Query                                 | Precision             | Top-3 có chunk chứa đáp án? | Chunk coherence                                                         | Grounding                                      |
 | ------------------------------------- | --------------------- | --------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- |
